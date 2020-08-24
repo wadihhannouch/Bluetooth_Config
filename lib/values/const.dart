@@ -1,4 +1,4 @@
-  import 'package:ble/utils/HexColor.dart';
+  import 'package:blue_config/utils/HexColor.dart';
 import 'package:flutter/material.dart';
   class Constants{
 

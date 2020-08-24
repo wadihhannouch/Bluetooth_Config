@@ -1,9 +1,7 @@
 import 'dart:convert';
 
-import 'package:ble/pages/loginpage.dart';
-import 'package:ble/pages/splash.dart';
-import 'package:ble/providers/theme_provider.dart';
-import 'package:ble/values/const.dart';
+import 'package:blue_config/pages/loginpage.dart';
+import 'package:blue_config/values/const.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

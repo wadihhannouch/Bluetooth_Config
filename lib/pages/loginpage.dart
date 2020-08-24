@@ -1,6 +1,7 @@
-import 'package:ble/utils/delayedanimation.dart';
-import 'package:ble/widgets/login_widget.dart';
-import 'package:ble/widgets/logo_widget.dart';
+import 'package:blue_config/utils/delayedanimation.dart';
+import 'package:blue_config/widgets/login_widget.dart';
+import 'package:blue_config/widgets/logo_widget.dart';
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {

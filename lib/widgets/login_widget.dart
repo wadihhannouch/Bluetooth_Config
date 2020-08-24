@@ -1,6 +1,6 @@
-import 'package:ble/utils/FormValidatorr.dart';
-import 'package:ble/utils/delayedanimation.dart';
-import 'package:ble/values/const.dart';
+import 'package:blue_config/utils/FormValidatorr.dart';
+import 'package:blue_config/utils/delayedanimation.dart';
+import 'package:blue_config/values/const.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

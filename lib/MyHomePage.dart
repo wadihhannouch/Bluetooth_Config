@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ble/widgets/themeswitch.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_blue/flutter_blue.dart';
 
@@ -263,8 +263,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ),
     body: Column(
       children: [
-        ThemeSwitch(context),
-//        _buildView(),
+        _buildView(),
       ],
     ),
 
