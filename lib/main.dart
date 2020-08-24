@@ -11,12 +11,7 @@ import 'MyHomePage.dart';
 
 void main() {
   runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ThemeProvider()),
-      ],
-      child: MyApp(),
-    ),
+    MyApp(),
   );
 }
 
@@ -24,19 +19,11 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Consumer<ThemeProvider>(
-      builder: (BuildContext context, ThemeProvider appProvider, Widget child) {
         return MaterialApp(
-          key: appProvider.key,
           debugShowCheckedModeBanner: false,
-          navigatorKey: appProvider.navigatorKey,
           title: Constants.appName,
-          theme: appProvider.theme,
-//          theme: Constants.lightTheme,
-//          darkTheme: appProvider.theme,
-          home: SplashPage(),
+          theme: Constants.lightTheme,
+          home: LoginPage(),
         );
-      },
-    );
   }
 }
