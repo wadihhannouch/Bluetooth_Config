@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:blue_config/pages/loginpage.dart';
+import 'package:blue_config/pages/LoginPage.dart';
 import 'package:blue_config/values/const.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
